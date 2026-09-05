@@ -74,10 +74,10 @@ def main():
             angka = int(input("Masukkan angka: "))
             print(mymodule.cek_bilangan_prima(angka))
         elif pilihan == "3":
-            kalimat = input("Masukkan kalimat: ")
+            kalimat = input("Masukkan kalimat dengan huruf kecil: ")
             print(mymodule.huruf_besar(kalimat))
         elif pilihan == "4":
-            kalimat = input("Masukkan kalimat: ")
+            kalimat = input("Masukkan kalimat dengan huruf besar: ")
             print(mymodule.huruf_kecil(kalimat))
         elif pilihan == "5":
             print("Terima kasih! Program selesai.")
